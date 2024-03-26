@@ -1,4 +1,8 @@
 :root{
+    --fs-9:9px;
+    --fs-12:12px;
+    --fs-13:13px;
+    --fs-xsm:10.88px;
     --fs-sm:14px;
     --fs-md:15px;
     --fs-lg:16px;
@@ -13,8 +17,18 @@
     --color-white:#FBFDFF;
     --color-blue:#0389FF;
 }
-
-
+.fs_9{
+    font-size: var(--fs-9);
+}
+.fs_12{
+    font-size: var(--fs-12);
+}
+.fs_13{
+    font-size: var(--fs-13);
+}
+.fs_xsm{
+    font-size: var(--fs-xsm);
+}
 .fs_sm{
     font-size: var(--fs-sm);
 }
@@ -57,10 +71,18 @@
 .lh_18{
     line-height: 18.9px;
 }
+.lh_13{
+    line-height: 13.5px;
+}
 
-
+.lh_15{
+    line-height: 15.24px;
+}
 .lh_22{
     line-height: 22.68px;
+}
+.lh_25{
+    line-height: 25.2px;
 }
 .lh_27{
     line-height: 27.2px;
@@ -70,6 +92,9 @@
 }
 .lh_38{
     line-height: 38.72px;
+}
+.lh_44{
+    line-height: 44.8px;
 }
 .lh_55{
     line-height: 55.44px;

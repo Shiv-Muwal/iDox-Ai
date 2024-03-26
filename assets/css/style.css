@@ -86,6 +86,9 @@
 .gap_22{
     gap: 22px;
 }
+.gap_6{
+    gap: 6px;
+}
 .pb_44{
     padding-bottom: 44px;
 }
@@ -117,9 +120,30 @@
 .pb_100{
     padding-bottom: 100px;
 }
-
-
-
+.pb_13{
+    padding-bottom: 13px;
+}
+.pt_51{
+    padding-top: 51.5px;
+}
+.gap_11{
+    gap: 11px;
+}
+.gap_20{
+    gap: 20px;
+}
+.pt_43{
+    padding-top: 43px;
+}
+.pb_87{
+    padding-bottom: 87px;
+}
+.pb_33{
+    padding-bottom: 33px;
+}
+.pb_126{
+    padding-bottom: 126px;
+}
 
 
 
@@ -149,7 +173,9 @@
 .w_673{
     width: 673px;
 }
-
+.w_53{
+    max-width: 53px;
+}
 
 
 .body_bg{
@@ -249,20 +275,55 @@
 }
 .file_box{
     max-width: 231px;
+    width: 100%;
     min-height: 228.68px;
+    height: 100%;
     border-radius: 15px;
     padding: 23px 20px 20px 21px;
     background: #0389FF1F;
 }
 .inner_box{
     padding: 19px 14px;
+    min-height: 185.41px;
+    max-width: 189.36px;
     background: #00000054;
     border: 1px solid #FFFFFF1A;
     border-radius: 22px;
 }
-
-
-
+.inner_box2{
+    padding: 12px 14px;
+    min-height: 185.41px;
+    max-width: 189.36px;
+    background: #00000054;
+    border: 1px solid #FFFFFF1A;
+    border-radius: 22px;
+}
+.doted_line{
+    padding: 9px 7px;
+    border: 1px dashed #0389FF;
+    border-radius: 22px;
+}
+.btn_3{
+    padding: 3px 15px;
+    background: linear-gradient(99.45deg, #0389FF 0%, #0069E3 100%);
+    border-radius: 45px;
+    border: 1px solid #0380F7;
+    font-size: 9.82px;
+}
+.sky_div{
+    background: #0389FF;
+    border-radius: 4px;
+    padding: 2px 5px 2px 2px;
+}
+.btn4{
+    padding: 13px 32px;
+    border: 1px solid var(--color-white);
+    opacity: 70%;
+    max-width: 115px;
+    background: transparent;
+    box-shadow: 0px 4px 32px 0px #2746ED80;
+    border-radius: 40px;
+}
 
 
 
@@ -315,4 +376,26 @@
     transform: translateX(-58%);
     border-radius: 21px !important;
     background-color: var(--color-blue);
+}
+.arrow_line1{
+    left: 21%;
+    top: 50%;
+}
+.arrow_line2{
+    left: 46%;
+    top: 50%;
+}
+.arrow_line3{
+    right: 23%;
+    top: 50%;
+}
+
+
+
+
+
+@media (min-width:992px) {
+    .text-nowrap{
+        text-wrap: nowrap;
+    }
 }
