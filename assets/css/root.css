@@ -1,0 +1,100 @@
+:root{
+    --fs-sm:14px;
+    --fs-md:15px;
+    --fs-lg:16px;
+    --fs-xl:18px;
+    --fs-2xl:20px;
+    --fs-3xl:32px;
+    --fs-4xl:44px;
+    --fs-5xl:48px;
+
+
+--bg-black:#020D15;
+    --color-white:#FBFDFF;
+    --color-blue:#0389FF;
+}
+
+
+.fs_sm{
+    font-size: var(--fs-sm);
+}
+.fs_md{
+    font-size: var(--fs-md);
+}
+.fs_lg{
+    font-size: var(--fs-lg);
+}
+.fs_xl{
+    font-size: var(--fs-xl);
+}
+.fs_2xl{
+    font-size: var(--fs-2xl);
+}
+.fs_3xl{
+    font-size: var(--fs-3xl);
+}
+.fs_4xl{
+    font-size: var(--fs-4xl);
+}
+.fs_5xl{
+    font-size: var(--fs-5xl);
+}
+
+
+.color_white{
+    color: var(--color-white);
+}
+.color_blue{
+    color: var(--color-blue);
+}
+.bg_black{
+    background: var(--bg-black);
+    background-blend-mode: color;
+}
+
+
+
+.lh_18{
+    line-height: 18.9px;
+}
+
+
+.lh_22{
+    line-height: 22.68px;
+}
+.lh_27{
+    line-height: 27.2px;
+}
+.lh_30{
+    line-height: 30px;
+}
+.lh_38{
+    line-height: 38.72px;
+}
+.lh_55{
+    line-height: 55.44px;
+}
+.lh_60{
+    line-height: 60.48px;
+}
+
+
+
+.letter_20{
+    letter-spacing: 20%;
+}
+.fw_300{
+    font-weight: 300;
+}
+.fw_400{
+    font-weight: 400;
+}
+.fw_500{
+    font-weight: 500;
+}
+.fw_600{
+    font-weight: 600;
+}
+.fw_700{
+    font-weight: 700;
+}
