@@ -50,15 +50,18 @@ $('.slider_2').slick({
           settings: {
             slidesToShow: 2,
             slidesToScroll: 1,
-    centerMode:false,
+            variableWidth:true,
+            centerMode:true,
           }
         },
         {
             breakpoint: 950,
             settings: {
-              slidesToShow: 3,
+              slidesToShow: 1,
               slidesToScroll: 1,
-      centerMode:false,
+              variableWidth:false,
+              centerMode:false,
+              dots:true,
             }
           },
     ]

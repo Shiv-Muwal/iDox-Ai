@@ -14,7 +14,11 @@
     --fs-5xl: 40px;
 
 --bg-black:#020D15;
+--color-black2:#FBFDFF33;
     --color-white:#FBFDFF;
+    --color-white1:#FFFFFF;
+    --color-white2:#FFFFFF1A;
+    --input-bg:#FBFDFF12;
     --color-blue:#0389FF;
     --footer-bg:#0389FF14;
 }
@@ -68,7 +72,10 @@
 .footer_bg{
     background: var(--footer-bg);
 }
-
+.bg_blue{
+    background: var(--color-blue) !important;
+    
+}
 
 
 .lh_18{
