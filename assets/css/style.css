@@ -160,8 +160,12 @@
     padding-left: 33px;
     padding-right: 33px;
 }
-
-
+.pt_28{
+    padding-top: 28px;
+}
+.pb_76{
+    padding-bottom: 76px;
+}
 
 
 .img_padding{
@@ -189,7 +193,9 @@
 .w_625{
     max-width: 625px;
 }
-
+.w_162{
+    max-width: 162px;
+}
 
 .body_bg{
     background: #020D15;
@@ -359,6 +365,16 @@
  .footer_svg:hover{
     opacity: 1;
  }
+.filter_gray{
+    background: transparent;
+    filter:  #020D15;
+    -webkit-filter: grayscale(1);
+    -webkit-transition: all 0.5s ease-in-out;
+}
+.filter_gray:hover{
+    filter: none;
+    -webkit-filter: grayscale(0);
+}
 
 /* .slider_2 .slick-track .slick-slide{
     display: flex !important;
@@ -411,15 +427,15 @@
 }
 .arrow_line1{
     left: 21%;
-    top: 50%;
+    top: 37%;
 }
 .arrow_line2{
     left: 46%;
-    top: 50%;
+    top: 37%;
 }
 .arrow_line3{
     right: 23%;
-    top: 50%;
+    top: 37%;
 }
 
 .menuicon {
