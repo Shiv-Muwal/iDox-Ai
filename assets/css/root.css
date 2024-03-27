@@ -1,17 +1,17 @@
 :root{
-    --fs-9:9px;
-    --fs-12:12px;
-    --fs-13:13px;
-    --fs-xsm:10.88px;
-    --fs-sm:14px;
-    --fs-md:15px;
-    --fs-lg:16px;
-    --fs-xl:18px;
-    --fs-2xl:20px;
-    --fs-3xl:32px;
-    --fs-4xl:44px;
-    --fs-5xl:48px;
 
+    --fs-9: 9px;
+    --fs-12: 12px;
+    --fs-13: 13px;
+    --fs-xsm: 10.88px;
+    --fs-sm: 14px;
+    --fs-md: 15px;
+    --fs-lg: 16px;
+    --fs-xl: 17px;
+    --fs-2xl: 18px;
+    --fs-3xl: 25px;
+    --fs-4xl: 35px;
+    --fs-5xl: 40px;
 
 --bg-black:#020D15;
     --color-white:#FBFDFF;
@@ -128,4 +128,20 @@
 }
 .fw_700{
     font-weight: 700;
+}
+@media (min-width:576px) {
+  :root{
+    --fs-9:9px;
+    --fs-12:12px;
+    --fs-13:13px;
+    --fs-xsm:10.88px;
+    --fs-sm:14px;
+    --fs-md:15px;
+    --fs-lg:16px;
+    --fs-xl:18px;
+    --fs-2xl:20px;
+    --fs-3xl:32px;
+    --fs-4xl:44px;
+    --fs-5xl:48px;
+  }
 }
