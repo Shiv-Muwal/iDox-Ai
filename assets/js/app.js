@@ -3,39 +3,11 @@ $('.slider_2').slick({
     infinite: true,
     speed: 300,
     arrows: false,
-    autoplay: false,
+    variableWidth:true,
+    centerMode:true,
+    autoplay: true,
     slidesToShow: 1,
-    centerMode: true,
     slidesToScroll: 1,
-    responsive: [
-        {
-            breakpoint: 812,
-            settings: {
-                slidesToShow: 1,
-                slidesToScroll: 1,
-    centerMode: true,
-
-            }
-        },
-        {
-            breakpoint: 793,
-            settings: {
-                slidesToShow: 1,
-                slidesToScroll: 1,
-    centerMode: true,
-    speed: 300,
-            }
-        },
-        {
-            breakpoint: 564,
-            settings: {
-    centerMode: true,
-    slidesToShow: 1,
-                slidesToScroll: 1,
-                speed: 300,
-            }
-        }
-    ]
 });
 const menuicon = document.querySelector(".menuicon");
 const menulist = document.querySelector(".menulist");

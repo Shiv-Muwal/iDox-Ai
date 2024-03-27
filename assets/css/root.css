@@ -16,6 +16,7 @@
 --bg-black:#020D15;
     --color-white:#FBFDFF;
     --color-blue:#0389FF;
+    --footer-bg:#0389FF14;
 }
 .fs_9{
     font-size: var(--fs-9);
@@ -64,6 +65,9 @@
 .bg_black{
     background: var(--bg-black);
     background-blend-mode: color;
+}
+.footer_bg{
+    background: var(--footer-bg);
 }
 
 

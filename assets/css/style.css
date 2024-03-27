@@ -25,7 +25,7 @@
     padding-right: 12px;
 }
 .container2{
-    max-width: 1140px;
+    max-width: 1320px;
     margin-left: auto;
     margin-right: auto;
     padding-left: 12px;
@@ -55,7 +55,9 @@
     border-bottom: 1px solid #FBFDFF33;
 }
 
-
+.op_60{
+    opacity: 60%;
+}
 .op_70{
     opacity: 70%;
 }
@@ -148,6 +150,12 @@
     padding-top: 14px;
     padding-bottom: 14px;
 }
+.pt_19{
+    padding-top: 19px;
+}
+.pb_36{
+    padding-bottom: 36px;
+}
 .px_33{
     padding-left: 33px;
     padding-right: 33px;
@@ -169,8 +177,8 @@
     max-width: 475px;
 }
 
-.h_665{
-    min-height: 665px;
+.w_225{
+    max-width: 225px;
 }
 .w_673{
     width: 673px;
@@ -340,39 +348,40 @@
     color: var(--color-white);
     opacity: 80%; 
   }
-  
- 
+  .footer_svg{
+    width: 32px;
+    height: 32px;
+    border: 1px solid #FFFFFF;
+    opacity: 30%;
+    border-radius: 50px;
+    transition: all 300ms linear;
+  }
+ .footer_svg:hover{
+    opacity: 1;
+ }
 
-
-
-
-
-
-
-
-
-
-
-.slider_2.slick-track {
+/* .slider_2 .slick-track .slick-slide{
     display: flex !important;
-}
+} */
 
-.slick-slide {
-    height: inherit !important;
-  
-}
+
+
+
+
+
 
 .slick-dots {
     display: flex;
     align-items: center;
     justify-content: center;
+    gap: 5px;
 }
 
 .slick-dots li {
     position: relative;
     display: inline-block !important;
-    width: 24px !important;
-    height: 13px !important;
+    width: 10px !important;
+    height: 10px !important;
     opacity: 1;
     background-color: white;
     margin: 0;
@@ -383,20 +392,20 @@
 
 .slick-dots li button:before {
     content: '' !important;
-    width: 25px;
+    width: 10px;
     position: absolute;
     top: 0;
     overflow: hidden;
     left: 0;
-    height: 14px;
+    height: 10px;
     background-color: transparent;
     border-radius: 21px !important;
 }
 
 .slick-dots li.slick-active button:before {
     opacity: 2;
-    width: 59px;
-    transform: translateX(-58%);
+    width: 53px;
+    transform: translateX(-81%);
     border-radius: 21px !important;
     background-color: var(--color-blue);
 }
@@ -470,6 +479,9 @@
     .translateX{
         transform: translateX(-18%);
     }
+    .h_665{
+        min-height: 665px;
+    }
 }
 
 
@@ -483,7 +495,7 @@
     }
     .menulist {
         flex-direction: column;
-        position: fixed;
+        position: fixed !important;
         top: 0;
         min-height: 100vh;
         width: 100%;
@@ -491,7 +503,8 @@
         justify-content: center;
         right: -100%;
         z-index: 150;
-        background: var(--color-blue);
+        background: var(--bg-black);
+        /* backdrop-filter: blur(50px); */
         transition: all 600ms linear;
     }
 
