@@ -133,10 +133,6 @@
     padding-bottom: 45px;
 }
 
-
-
-
-
 .mt_10 {
     margin-top: 10px;
 }
@@ -165,8 +161,6 @@
     padding-top: 13.71px;
 }
 
-
-
 .pb_13 {
     padding-bottom: 13px;
 }
@@ -186,7 +180,6 @@
 .pb_87 {
     padding-bottom: 87px;
 }
-
 
 .py_14 {
     padding-top: 14px;
@@ -584,6 +577,24 @@
 .arrow_line3 {
     right: 23%;
     top: 37%;
+}
+.black_box1{
+    background: var(--bg-black2);
+    width: 88.34px;
+    height: 19.4px;
+    border-radius: 4px;
+}
+.black_box2{
+    background: var(--bg-black2);
+    width: 41.34px;
+    height: 19.4px;
+    border-radius: 4px;
+}
+.black_box3{
+    background: var(--bg-black2);
+    width: 115px;
+    height: 19.4px;
+    border-radius: 4px;
 }
 
 .menuicon {
