@@ -499,6 +499,11 @@
     top: -50%;
 }
 
+.value_ellip {
+    bottom: -40%;
+    right: -40%;
+}
+
 .plus_svg {
     top: -20px;
     right: -20px;
@@ -582,19 +587,22 @@
     right: 23%;
     top: 37%;
 }
-.black_box1{
+
+.black_box1 {
     background: var(--bg-black2);
     width: 88.34px;
     height: 19.4px;
     border-radius: 4px;
 }
-.black_box2{
+
+.black_box2 {
     background: var(--bg-black2);
     width: 41.34px;
     height: 19.4px;
     border-radius: 4px;
 }
-.black_box3{
+
+.black_box3 {
     background: var(--bg-black2);
     width: 115px;
     height: 19.4px;
