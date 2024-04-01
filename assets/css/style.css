@@ -521,7 +521,11 @@
     top: -50%;
     left: -40%;
 }
-
+.slider_2 .slick-slide.slick-active{
+   .slider2_box{
+    background: var(--slider-active);
+   }
+}
 .slick-slider {
     margin: 0 -24px !important;
 }
