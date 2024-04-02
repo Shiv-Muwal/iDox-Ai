@@ -521,11 +521,18 @@
     top: -50%;
     left: -40%;
 }
-.slider_2 .slick-slide.slick-active{
-   .slider2_box{
-    background: var(--slider-active);
-   }
+
+.slider_2 .slick-slide.slick-active {
+    .slider2_box {
+        background: var(--slider-active);
+    }
 }
+
+.choose_svg {
+    right: 25%;
+    top: 20%;
+}
+
 .slick-slider {
     margin: 0 -24px !important;
 }
