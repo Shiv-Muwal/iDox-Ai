@@ -627,6 +627,10 @@
     border-radius: 4px;
 }
 
+.cursor_pointer{
+    cursor: pointer;
+}
+
 .black_box3 {
     background: var(--bg-black2);
     width: 115px;
