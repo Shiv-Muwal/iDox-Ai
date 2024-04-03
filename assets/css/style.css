@@ -301,13 +301,7 @@
     border: 1px solid var(--color-blue);
 }
 
-.box1 {
-    padding: 18px 15px;
-    width: 100%;
-    min-height: 135px;
-    border-radius: 10px;
-    background: #0389FF1F;
-}
+
 
 .svg_box {
     padding: 16px;
@@ -317,12 +311,7 @@
     background: #0389FF1A;
 }
 
-.box2 {
-    padding: 23px;
-    width: 100%;
-    border-radius: 10px;
-    background: #0389FF1F;
-}
+
 
 .box3 {
     padding: 14px 16px;
@@ -638,6 +627,68 @@
     border-radius: 4px;
 }
 
+.accordion-button::after{
+    display:none;
+  }
+  .svg_box{
+    display: block;
+  }
+
+
+  .accordion-button{
+    padding: 18px 15px;
+    width: 100%;
+    border-radius: 10px;
+    background: #0389FF1F;
+  
+  }
+  .accordion{
+    --bs-accordion-color:none !important ; 
+    --bs-accordion-bg: transparent;
+    --bs-accordion-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, border-radius 0.15s ease;
+     --bs-accordion-border-color: none;
+     --bs-accordion-border-width: none;
+     --bs-accordion-border-radius: none;
+  }
+  .accordion-button:not(.collapsed) {
+    color: var(--bs-accordion-active-color);
+    background-color: #0389FF1F;
+    box-shadow: inset 0 calc(-1* var(--bs-accordion-border-width)) 0 var(--bs-accordion-border-color);
+    .svg_box{
+        display: none;
+    }
+}
+.accordion-body {
+    padding: 0;
+}
+.accordion-button:not(.collapsed)[type=button]:not(:disabled){
+    .svg_box{
+        display: block !important;
+    }
+    .accordion-para{
+        display: block;
+    }
+    .accordion-title{
+        color: var(--color-blue);
+    }
+}
+.svg_box{
+    display: none !important;
+}
+
+.accordion-button:focus {
+    box-shadow: none;
+}
+.accordion-button.collapsed {
+    padding: 23px;
+    width: 100%;
+    border-radius: 10px;
+    background: #0389FF1F;
+
+}
+   .accordion-para{
+    display: none;
+}
 .menuicon {
     width: 40px;
     height: 40px;
