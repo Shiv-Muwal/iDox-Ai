@@ -23,6 +23,7 @@
     --input-bg:#FBFDFF12;
     --color-blue:#0389FF;
     --footer-bg:#0389FF14;
+    --color-blue3:#0389FF1F;
 }
 .fs_9{
     font-size: var(--fs-9);
