@@ -41,9 +41,10 @@ $('.slider_2').slick({
     arrows: false,
     variableWidth:true,
     centerMode:true,
-    autoplay: true,
+    autoplay: false,
     slidesToShow: 1,
     slidesToScroll: 1,
+
     responsive: [
         {
           breakpoint: 1024,
